@@ -1,3 +1,5 @@
+'''A function to return the largest number in a given list passed
+as a parameter'''
 def largestnum(n):
     if type(n) != list:
         return 'kindly insert a list'
