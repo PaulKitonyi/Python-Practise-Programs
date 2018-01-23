@@ -1,0 +1,5 @@
+inp = input('Enter nums:')
+lst=inp.split(',')
+tup = tuple(lst)
+print(lst)
+print(tup)
