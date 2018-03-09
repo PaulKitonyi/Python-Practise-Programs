@@ -5,8 +5,9 @@ between 2000 and 3200 (both included).
 The numbers obtained should be printed in a comma-separated sequence on
 a single line.'''
 
-li = []
+ li = []
 for i in range(2000,3200+1):
     if (i%7==0) and (i%5!=0):
         li.append(str(i))
 print(','.join(li))
+
