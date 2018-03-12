@@ -1,7 +1,10 @@
-def get_formatted_name(first, last):
+def get_formatted_name(first, last, middle=''):
     """A function to format a name"""
-    formatted_name = first + ' ' + last
-    return formatted_name.title()
+    if middle:
+        full_name = first + ' ' + middle + ' ' + last
+    else:
+        full_name = first + ' ' + last
+    return full_name.title()
 
 
 
