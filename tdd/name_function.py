@@ -5,4 +5,4 @@ def get_formatted_name(first, last):
 
 
 
-print(get_formatted_name('paul', 'kitonyi'))
+# print(get_formatted_name('paul', 'kitonyi'))
