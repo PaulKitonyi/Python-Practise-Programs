@@ -18,4 +18,4 @@ class AnonymousSurvey():
         """Displays the stored responses"""
         print('*'*5+ " printing responses in a while........ "+'*'*5 )
         for response in self.responses:
-            print('*' + response)
+            print('-' + response)
