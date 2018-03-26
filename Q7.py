@@ -1,5 +1,6 @@
-''' A function to divide all the even numbers by two and multiply all the odd
-numbers by two in a list passed as parameter and return their sum''' 
+# A function to divide all the even numbers by two and multiply all the odd
+# numbers by two in a list passed as parameter and return their sum.
+
 def sumoddeven(n):
     if type(n) != list:
         return 'Please pass a list'

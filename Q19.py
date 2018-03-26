@@ -1,4 +1,4 @@
-'''A function to return the smallest number in a given list'''
+# A function to return the smallest number in a given list.
 
 def smallest(l):
     if type(l) != list:
